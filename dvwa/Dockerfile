@@ -20,5 +20,5 @@ RUN \
   chmod a+w /app/hackable/uploads && \
   chmod a+w /app/external/phpids/0.6/lib/IDS/tmp/phpids_log.txt
 
-EXPOSE 81 3306
+EXPOSE 80 3306
 CMD ["/run.sh"]
